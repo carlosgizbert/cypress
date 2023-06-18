@@ -15,6 +15,7 @@ jobs:
         with:
           browser: chrome
           record: true
+          parallel: true
       - name: Upload files on artifact
         uses: actions/upload-artifact@v3
         # add the line below to store screenshots only on failures
