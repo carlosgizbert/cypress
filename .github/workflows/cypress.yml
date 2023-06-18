@@ -13,7 +13,8 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          browser: chrome
+          start: npm cy:run
+          wait-on: "http://localhost:3000"
           record: true
           parallel: true
       - name: Upload files on artifact
