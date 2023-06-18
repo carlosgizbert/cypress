@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npx cypress open",
-    "cy:run": "npx cypress run --record",
-    "test": "npx cypress run --record"
+    "cy:run": "npx cypress run --record --key 3f512057-8e26-4934-a247-2e9475412dd4",
+    "test": "npx cypress run --record --key 3f512057-8e26-4934-a247-2e9475412dd4"
   },
   "keywords": [],
   "author": "",
